@@ -41,7 +41,7 @@ For the third line, capitalize the first letter in both $A$ and $B$ and print th
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-24T17:49:07.258Z  
+**Submitted:** 2026-11-24T17:55:46.699Z  
 
 ```java
 import java.io.*;
@@ -60,35 +60,14 @@ public class Solution {
         
         System.out.println(a.length()+b.length());
         
-        int i=0;
-        while(i<a.length())
+        if(a.compareTo(b)>0)
         {
-            char a1=a.charAt(i);
-            if(a1==' ')
-            {
-                System.out.println("No");
-                break;
-            }
-            char b1=b.charAt(i);
-            int an = (int) a1;
-            int bn = (int) b1;
-            if(an>bn)
-            {
-                System.out.println("Yes");
-                break;
-            }
-            else if(an<bn)
-            {
-                System.out.println("No");
-                break;
-            }
-            else 
-            {
-               i++;
-            }
-           
-        }   
-
+            System.out.println("Yes");
+        }
+        else
+        {
+             System.out.println("No");
+        }
         System.out.println(a.substring(0,1).toUpperCase()+a.substring(1)+" "+b.substring(0,1).toUpperCase()+b.substring(1));
     }
 }
