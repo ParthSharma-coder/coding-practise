@@ -12,7 +12,7 @@ public class Solution {
         int b=sc.nextInt();
         if((a*b)%12==0)
         {
-            System.out.println("0");
+            System.out.println("12");
         }
         else 
         {
