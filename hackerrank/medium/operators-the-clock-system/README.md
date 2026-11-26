@@ -62,7 +62,7 @@ Here X= 2 and Y= 5 and these product is 2*5=10, Therefore, 10 is returned as the
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-26T16:45:47.539Z  
+**Submitted:** 2026-11-26T16:46:26.395Z  
 
 ```java
 import java.io.*;
@@ -79,7 +79,7 @@ public class Solution {
         int b=sc.nextInt();
         if((a*b)%12==0)
         {
-            System.out.println("0");
+            System.out.println("12");
         }
         else 
         {
