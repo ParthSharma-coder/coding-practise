@@ -62,7 +62,7 @@ Here X= 2 and Y= 5 and these product is 2*5=10, Therefore, 10 is returned as the
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-26T16:47:22.315Z  
+**Submitted:** 2026-11-26T16:46:31.846Z  
 
 ```java
 import java.io.*;
